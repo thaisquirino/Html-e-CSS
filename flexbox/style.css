@@ -2,9 +2,6 @@
   display:flex;
   flex-wrap:wrap;
   gap:20px;
-  place-content: center;
-  background: chocolate;
-  height:100vh;
 }
 
 body{
@@ -17,4 +14,10 @@ h2{
   border:1px solid #d7d7d7;
   padding:20px;
   margin:0px;
+  /* flex-grow: 1; */
+  /* flex-basis: auto; */
+  /* flex-shrink: 1; */
+  flex: 1;
 }
+
+
